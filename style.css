@@ -6,11 +6,12 @@
 }
 :root {
     --orred: #FD6E0A;
-    --bgcl: #fff8f3c9;
+    --bgcl: #fff8f3;
     --textColor: #756e6e;
 }
 header{
-    margin-top: 20px;
+    padding: 20px 0;
+    background-color: var(--bgcl);
 }
 nav{
     display: flex;
@@ -44,8 +45,14 @@ nav>ul>li>a{
     font-weight: 500;
 }
 .text>p{
+    width: 440px;
     margin: 20px 0;
+    font-size: 14px;
     line-height: 25px;
+    color: var(--textColor);
+}
+.text{
+    margin-left: 80px;
 }
 .btnPrimary{
     background-color: #FD6E0A;
@@ -75,11 +82,18 @@ nav>ul>li>a{
     display: flex;
     align-items: center;
     background-color: var(--bgcl);
-    margin: 40px 0px;
-    padding: 0px 100px;
+   
+    padding: 30px 100px 0;
     background-image: url(./img/header_bg.png);
     background-repeat: no-repeat;background-position: right bottom;
     background-size: 750px 450px;
+}
+.sideimg>img{
+    width: 90px;
+    height: 600px;
+    top: 40px;
+    left: 30px;
+    position: absolute;
 }
 .pic{
     
@@ -87,6 +101,7 @@ nav>ul>li>a{
 .pic>img{
     width: 494px;
     height: 576px;
+    padding: 0;
 }
 .about{
     margin: 100px;
